@@ -14,7 +14,7 @@ let iniciar = function(){
         atk: 20
     }
 
-    while(hero.hp != 0){
+    while(hero.hp > 0){
         ataca(hero, slime);
         showStats(hero, slime);   
         if(slime.hp <= 0){  break;  }
